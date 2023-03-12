@@ -6,7 +6,7 @@ const style = {
     wrapper: 'relative',
     container: 'before:content-[""] before:bg-black before:fixed before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url("https://i.kym-cdn.com/photos/images/newsfeed/002/045/259/114.gif")] before:bg-cover before:bg-center before:opacity-90',
     contentWrapper: 'flex h-screen relative justify-center flex-wrap items-center',
-    copyContainer: 'w-fit bg-black bg-opacity-10 rounded-md backdrop-blur w-min px-2',
+    copyContainer: 'w-fit bg-black bg-opacity-10 rounded-md backdrop-blur px-2',
     title: 'relative text-white text-[46px] font-semibold',
     description: 'text-gray-200 container-[400px] text-2xl mt-[0.8rem] mb-[2.5rem]',
     ctaContainer: 'flex bg-black bg-opacity-40 rounded-md backdrop-blur px-4 py-6 w-fit',
