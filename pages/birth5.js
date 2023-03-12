@@ -7,7 +7,7 @@ const style = {
     container: 'before:content-[""] before:bg-black before:fixed before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGI1NTUyMDNmMzJmMDRkNGUxYzcxMjM2ZGJjYjZkOGFkYTdiOTY5ZiZjdD1n/TKN7YK2i70gFy/giphy.gif")] before:bg-cover before:bg-center before:opacity-90',
     contentWrapper: 'flex h-screen relative justify-center flex-wrap items-center',
     copyContainer: 'w-fit bg-transparent bg-opacity-10 rounded-md backdrop-blur-sm px-2',
-    title: 'relative text-white text-[46px] font-semibold',
+    title: 'relative text-white text-5xl font-semibold',
     description: 'text-gray-200 container-[400px] text-2xl mt-[0.8rem] mb-[2.5rem]',
     ctaContainer: 'flex bg-black bg-opacity-40 rounded-md backdrop-blur px-4 py-6 w-fit',
     accentedButton: 'relative text-lg font-semibold px-12 py-4 bg-gradient-to-br from-green-300 via-blue-500 to-purple-600 hover:from-green-200 hover:via-green-400 hover:to-purple-700 rounded-full mr-5 text-black border border-black hover:border-white cursor-pointer',

@@ -43,7 +43,7 @@ const Header1 = () => {
             </div>
             </div>
             </Link>
-            <div className="absolute bottom-0  md:right-20 sm:right-5">
+            <div className="absolute bottom-0 right-10">
             <div className="rounded-full px-3 py-1 bg-transparent bg-opacity-10">
             <div className={style.logoContainer}>
                 <div className="flex space-x-6">
