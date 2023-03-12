@@ -33,45 +33,45 @@ const style = {
 const Header1 = () => {
     return <div className={style.wrapper}>
         <Link href="/">
-            <div class="rounded-full px-3 py-1 bg-black bg-opacity-10 backdrop-blur-xl">
+            <div className="rounded-full px-3 py-1 bg-black bg-opacity-10 backdrop-blur-xl">
             <div className={style.logoContainer}>
-                <span class="relative flex h-5 w-5">
-                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
-                    <span class="relative inline-flex rounded-full h-5 w-5 bg-red-600"></span>
+                <span className="relative flex h-5 w-5">
+                    <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                    <span className="relative inline-flex rounded-full h-5 w-5 bg-red-600"></span>
                 </span>
             <div className={style.logoText}>Live</div>
             </div>
             </div>
             </Link>
-            <div class="absolute bottom-0 right-20">
-            <div class="rounded-full px-3 py-1 bg-transparent bg-opacity-10">
+            <div className="absolute bottom-0 right-20">
+            <div className="rounded-full px-3 py-1 bg-transparent bg-opacity-10">
             <div className={style.logoContainer}>
-                <div class="flex space-x-6">
+                <div className="flex space-x-6">
                     <Link href="../birth2">
                 <div>
-                <span class="relative flex h-8 w-8">
-                    <span class="relative inline-flex rounded-full h-8 w-8 bg-orange-500"></span>
+                <span className="relative flex h-8 w-8">
+                    <span className="relative inline-flex rounded-full h-8 w-8 bg-orange-500"></span>
                 </span>
                 </div>
                 </Link>
                 <Link href="../birth3">
                 <div>
-                <span class="relative flex h-8 w-8">
-                    <span class="relative inline-flex rounded-full h-8 w-8 bg-green-500"></span>
+                <span className="relative flex h-8 w-8">
+                    <span className="relative inline-flex rounded-full h-8 w-8 bg-green-500"></span>
                 </span>
                 </div>
                 </Link>
                 <Link href="../birth4">
                 <div>
-                <span class="relative flex h-8 w-8">
-                    <span class="relative inline-flex rounded-full h-8 w-8 bg-pink-500"></span>
+                <span className="relative flex h-8 w-8">
+                    <span className="relative inline-flex rounded-full h-8 w-8 bg-pink-500"></span>
                 </span>
                 </div>
                 </Link>
                 <Link href="../birth5">
                 <div>
-                <span class="relative flex h-8 w-8">
-                    <span class="relative inline-flex rounded-full h-8 w-8 bg-blue-500"></span>
+                <span className="relative flex h-8 w-8">
+                    <span className="relative inline-flex rounded-full h-8 w-8 bg-blue-500"></span>
                 </span>
                 </div>
                 </Link>
