@@ -28,7 +28,7 @@ const Hero = () => {
                 <div className={style.contentWrapper}>
                     <div className={style.copyContainer}>
                         <div className={style.title}>
-                            Here's to new adventures
+                            Here is to new adventures
                         </div>
                     </div>
                     
