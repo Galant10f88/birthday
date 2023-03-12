@@ -4,9 +4,9 @@ import Link from 'next/link'
 
 const style = {
     wrapper: 'relative',
-    container: 'before:content-[""] before:bg-black before:fixed before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url("https://i.gifer.com/fxr9.gif")] before:bg-cover before:bg-center before:opacity-90',
+    container: 'before:content-[""] before:bg-black before:fixed before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url("https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExMGI1NTUyMDNmMzJmMDRkNGUxYzcxMjM2ZGJjYjZkOGFkYTdiOTY5ZiZjdD1n/TKN7YK2i70gFy/giphy.gif")] before:bg-cover before:bg-center before:opacity-90',
     contentWrapper: 'flex h-screen relative justify-center flex-wrap items-center',
-    copyContainer: 'w-fit bg-black bg-opacity-10 rounded-md backdrop-blur w-min px-2',
+    copyContainer: 'w-fit bg-transparent bg-opacity-10 rounded-md backdrop-blur-sm w-min px-2',
     title: 'relative text-white text-[46px] font-semibold',
     description: 'text-gray-200 container-[400px] text-2xl mt-[0.8rem] mb-[2.5rem]',
     ctaContainer: 'flex bg-black bg-opacity-40 rounded-md backdrop-blur px-4 py-6 w-fit',
@@ -28,7 +28,7 @@ const Hero = () => {
                 <div className={style.contentWrapper}>
                     <div className={style.copyContainer}>
                         <div className={style.title}>
-                            Happy Birthday!!!
+                            I Love You Brother
                         </div>
                     </div>
                     

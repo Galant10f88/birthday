@@ -3,13 +3,7 @@ import Link from 'next/link'
 import React from 'react'
 import fyrefliLogo from '../../assets/fyrefli.png'
 import { AiOutlineSearch } from 'react-icons/ai'
-import { CgProfile } from 'react-icons/cg'
-import DropChains from '../Drop/dropChains'
-import DropMkt from '../Drop/dropMkt'
-import DropInfo from '../Drop/dropInfo'
-import DropSwap from '../Drop/dropSwap'
-import DropProfile from '../Drop/dropProfile'
-import diamond from '../../assets/diamond.png'
+import diamond from '../../public/Pacman.png'
 
 //text-transparent bg-clip-text bg-gradient-to-r from-green-300 via-blue-500 to-purple-600
 //bg-gradient-to-r from-rose-400 via-fuchsia-500 to-indigo-500
@@ -17,11 +11,12 @@ import diamond from '../../assets/diamond.png'
 //bg-opacity-90
 //bg-gradient-to-r from-fuchsia-600 to-pink-600
 //shadow-cyan-500/50
+//text-transparent bg-clip-text bg-gradient-to-r from-yellow-200 to-yellow-600 font-bold text-3xl
 
 const style = {
-    wrapper: 'sticky top-0 z-50 bg-[#04111d] bg-opacity-70 w-screen px-[1.2rem] py-4 flex shadow-xl backdrop-blur-sm bg-slate-700/30',
+    wrapper: 'sticky top-0 z-50 bg-[#04111d] bg-opacity-0 w-screen px-[1.2rem] py-4 flex bg-transparent',
     logoContainer: 'flex items-center cursor-pointer',
-    logoText: 'ml-[0.8rem] text-transparent bg-clip-text bg-gradient-to-r from-white to-fuchsia-600 font-semibold text-2xl',
+    logoText: 'ml-[0.8rem] text-white font-bold text-3xl',
     searchBar: 'flex flex-1 mx-[0.8rem] w-max-[520px] items-center bg-[#363840] rounded-[0.8rem] hover:bg-[#4c505c]',
     searchIcon: 'text-[#8a939b] mx-3 font-bold text-lg',
     searchInput: 'h-[2.6rem] w-full border-0 bg-transparent outline-0 ring-0 px-2 pl-0 text-[#e6e8eb] placeholder:text-[#8a939b]',
@@ -38,33 +33,52 @@ const style = {
 const Header1 = () => {
     return <div className={style.wrapper}>
         <Link href="/">
+            <div class="rounded-full px-3 py-1 bg-black bg-opacity-10 backdrop-blur-xl">
             <div className={style.logoContainer}>
-                    <Image src={diamond} height={40} width={40} alt='' />
-                    <div className={style.logoText}>CRYPTABLE</div>
+                <span class="relative flex h-5 w-5">
+                    <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-red-400 opacity-75"></span>
+                    <span class="relative inline-flex rounded-full h-5 w-5 bg-red-600"></span>
+                </span>
+            <div className={style.logoText}>Live</div>
+            </div>
             </div>
             </Link>
-        <div className={style.searchBar}>
-            <div className={style.searchIcon}>
-                <AiOutlineSearch/>
+            <div class="absolute bottom-0 right-20">
+            <div class="rounded-full px-3 py-1 bg-transparent bg-opacity-10">
+            <div className={style.logoContainer}>
+                <div class="flex space-x-6">
+                    <Link href="../birth2">
+                <div>
+                <span class="relative flex h-8 w-8">
+                    <span class="relative inline-flex rounded-full h-8 w-8 bg-orange-500"></span>
+                </span>
+                </div>
+                </Link>
+                <Link href="../birth3">
+                <div>
+                <span class="relative flex h-8 w-8">
+                    <span class="relative inline-flex rounded-full h-8 w-8 bg-green-500"></span>
+                </span>
+                </div>
+                </Link>
+                <Link href="../birth4">
+                <div>
+                <span class="relative flex h-8 w-8">
+                    <span class="relative inline-flex rounded-full h-8 w-8 bg-pink-500"></span>
+                </span>
+                </div>
+                </Link>
+                <Link href="../birth5">
+                <div>
+                <span class="relative flex h-8 w-8">
+                    <span class="relative inline-flex rounded-full h-8 w-8 bg-blue-500"></span>
+                </span>
+                </div>
+                </Link>
             </div>
-            <input className={style.searchInput} 
-            placeholder="Search items, collections, and accounts"
-            />
-        </div>
-        <div className={style.headerItems}>
-                <div className={style.headerItem}> <DropMkt/> </div>
-                <div className={style.headerSwap}> <DropSwap/> </div>
-                <div className={style.headerItem}> <DropInfo/> </div>
-                <Link href='../../currency/testing'>
-            <div className={style.cheating}> . </div>
-            </Link>
-                <div className={style.button}> <DropChains/> </div>
-            <div className={style.headerIcon}> <DropProfile/> </div>
-            <Link href='../../general/games'>
-                <div className={style.headerItem}> Games </div>
-            </Link>
-            <div className={style.cheating}> . </div>
-        </div>
+            </div>
+            </div>
+            </div>
     </div>;
 }
 
