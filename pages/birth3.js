@@ -4,7 +4,7 @@ import Link from 'next/link'
 
 const style = {
     wrapper: 'relative',
-    container: 'before:content-[""] before:bg-black before:fixed before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url("http://giffetteria.it/archivio/sindame06.gif")] before:bg-cover before:bg-center before:opacity-90',
+    container: 'before:content-[""] before:bg-black before:fixed before:top-0 before:left-0 before:right-0 before:bottom-0 before:bg-[url("https://giffiles.alphacoders.com/803/80314.gif")] before:bg-cover before:bg-center before:opacity-90',
     contentWrapper: 'flex h-screen relative justify-center flex-wrap items-center',
     copyContainer: 'w-fit bg-black bg-opacity-10 rounded-md backdrop-blur px-2',
     title: 'relative text-white md:text-5xl sm:text-4xl font-semibold',
